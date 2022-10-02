@@ -38,6 +38,7 @@ def flames(f,s):
                     l=left
                 return recursion(length,l)
         print(f"{name1} and {name2} are {recursion(length,l)}")
+        
 
 
 
