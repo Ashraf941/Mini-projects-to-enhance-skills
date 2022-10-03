@@ -12,7 +12,7 @@ def romantoint(s):
             i-=2
         else:
             result+=roman_dict[s[i]]
-            s=s[:i+1]
+            s=s[:i]
             i-=1
     return result
 print()
